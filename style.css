@@ -31,4 +31,48 @@ main{
     height: 100vh;
     position: fixed;
     background-color: rgb(8, 8, 8);
+    transition: width 200ms ease;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
+    
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: cornsilk;
+    text-decoration: none;
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    color: cornsilk;
+}
+.navbar:hover {
+    width: 16rem;
+}
+.navbar:hover .link-text {
+   display: block;
 }
