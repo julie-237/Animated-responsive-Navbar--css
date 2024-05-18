@@ -68,7 +68,6 @@ main{
 .nav-link svg {
     min-width: 2rem;
     margin: 0 1.5rem;
-    color: cornsilk;
 }
 .navbar:hover {
     width: 16rem;
